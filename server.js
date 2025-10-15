@@ -1,6 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const connectDB = require("./config/Db");
+const connectDB = require("./Config/Db");
 const logger = require("./util/Logger");
 const requestLogger = require("./util/reqLogger");
 const { swaggerUi, specs } = require('./Config/swagger'); 

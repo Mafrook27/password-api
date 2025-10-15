@@ -119,7 +119,7 @@ login: async (req, res, next) => {
           role: user.role,
           lastLogin: user.lastLogin
         },
-        token  //  if you want to support old frontend
+        // token  //  if you want to support old frontend
       }
     });
     logger.info(`Login successful: ${user.email}`);
